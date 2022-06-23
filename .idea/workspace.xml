@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="index content">
+    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="header  und bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655992842770</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="header  und bootstrap">
+      <created>1655993133653</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655993133653</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="bootstrap eingebunden" />
     <MESSAGE value="carla 3" />
     <MESSAGE value="index content" />
-    <option name="LAST_COMMIT_MESSAGE" value="index content" />
+    <MESSAGE value="header  und bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="header  und bootstrap" />
   </component>
 </project>
