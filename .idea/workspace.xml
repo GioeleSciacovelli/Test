@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="bootstrap eingebunden">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="carla 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655987148964</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="carla 3">
+      <created>1655987183817</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655987183817</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,8 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="carla" />
-    <MESSAGE value="carla 3" />
     <MESSAGE value="bootstrap eingebunden" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap eingebunden" />
+    <MESSAGE value="carla 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="carla 3" />
   </component>
 </project>
