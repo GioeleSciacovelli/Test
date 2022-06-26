@@ -8,7 +8,12 @@ html {
 }
 
 body {
+color: red;
+}
 
+h1{
+  font-family: "Russ One";
+  color: red;
 }
 
 ul {
@@ -85,3 +90,11 @@ li:nth-child(4) a:after {
 a:hover:after {
   transform: rotateX(0deg) translateZ(0px);
 }
+
+Navigation
+
+a.nav-link{
+  color: black;
+  font-family: Roboto;
+}
+
