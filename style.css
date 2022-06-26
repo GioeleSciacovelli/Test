@@ -18,7 +18,8 @@ h1{
   color: white;
 }
 h1.white{
-color: white}
+color: white;
+font-size: 60px}
 
 
 
@@ -124,10 +125,21 @@ a {
 
 .welcome{
   background-color: #505ABA;
+  padding: 55px 0px;
+}
+
+.work{
+  background-color: #505ABA;
+  padding: 55px 0px;
+  margin-top: 20px;
 }
 
 p.bold{
   color: white;
+}
+
+.margin-text{
+  margin: 0px 120px;
 }
 
 
@@ -151,4 +163,19 @@ a {
   letter-spacing: 0em;
 }
 
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: black;}
 
+
+.heroabout{
+  display: flex;
+  align-items: center;
+}
+
+.presentation{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
