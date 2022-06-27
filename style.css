@@ -149,12 +149,13 @@ ul {
   padding: 0;
   width: 100%;
   min-width: 535px;
-  background-color: white;
   font-size: 22px;
   position: relative;
   box-shadow: none;
 }
-
+ul:after {
+  background-image: none;
+}
 a {
   text-transform: none;
   z-index: 2;
@@ -162,10 +163,6 @@ a {
   letter-spacing: 0em;
 }
 
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: black;}
 
 
 .heroabout{
