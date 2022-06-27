@@ -4,6 +4,8 @@ html {
   perspective: 1000px;
   transform-style: preserve-3d;
   font-family: lato, sans-serif;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 h1{
@@ -42,6 +44,24 @@ ul:after {
   height: 100%;
   opacity: .5;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiZmBg6AZiDiBWZ4YyQMCOCcYA4kMAAQYAHyYCCUdxidgAAAAASUVORK5CYII=");
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
 
 li {
