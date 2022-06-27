@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="carla 21:29">
+    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="Änderung 1 27.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29QnXQLdwo9EU1BOUq7HiOu6yWq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,6 +72,7 @@
       <workItem from="1654872015845" duration="666000" />
       <workItem from="1655094793385" duration="2325000" />
       <workItem from="1655970522855" duration="72000" />
+      <workItem from="1656356792271" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="carla">
       <created>1654872103426</created>
@@ -91,21 +95,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655969966067</updated>
     </task>
-    <task id="LOCAL-00004" summary="carla 21:29">
-      <created>1656358201737</created>
+    <task id="LOCAL-00004" summary="Änderung 1 27.6">
+      <created>1656356044955</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1656358201737</updated>
+      <updated>1656356044955</updated>
     </task>
-    <task id="LOCAL-00005" summary="carla 21:29">
-      <created>1656359355588</created>
+    <task id="LOCAL-00005" summary="Änderung 1 27.6">
+      <created>1656356400178</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1656359355588</updated>
+      <updated>1656356400178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Änderung 1 27.6">
+      <created>1656357306666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656357306666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,8 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="carla" />
     <MESSAGE value="carla 3" />
-    <MESSAGE value="carla 26.06" />
-    <MESSAGE value="carla 21:29" />
-    <option name="LAST_COMMIT_MESSAGE" value="carla 21:29" />
+    <MESSAGE value="Änderung 1 27.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Änderung 1 27.6" />
   </component>
 </project>
