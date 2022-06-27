@@ -1,0 +1,103 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import url(https://fonts.googleapis.com/css?family=Lato:100,400);\nhtml {\n  height: 100%;\n  perspective: 1000px;\n  transform-style: preserve-3d;\n  font-family: lato, sans-serif;\n  margin-left: 30px;\n  margin-right: 30px;\n}\n\nh1{\n  font-family: Russo One;\n  color: black;\n  font-size: 60px;\n  margin-bottom: 20px;}\n\n\n.white{\n  color: white;\n}\nh1.white{\ncolor: white;\nfont-size: 60px}\n\n\n\nul {\n  display: block;\n  text-align: center;\n  margin: 0 auto;\n  padding: 0;\n  width: 100%;\n  min-width: 535px;\n  background-color: #343e48;\n  position: relative;\n  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.5);\n}\nul:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  opacity: .5;\n  background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiZmBg6AZiDiBWZ4YyQMCOCcYA4kMAAQYAHyYCCUdxidgAAAAASUVORK5CYII=\");\n}\na:link {\n  color: black;\n}\n\n/* visited link */\na:visited {\n  color: black;\n}\n\n/* mouse over link */\na:hover {\n  color: black;\n}\n\n/* selected link */\na:active {\n  color: black;\n}\n\nli {\n  margin: 0 auto;\n  display: inline-block;\n  list-style: none;\n  padding: 0;\n}\n\na {\n  display: block;\n  padding: 25px;\n  text-transform: uppercase;\n  position: relative;\n  z-index: 2;\n  text-shadow: 1px 0px rgba(0, 0, 0, 0.4);\n  color: #686f77;\n  letter-spacing: .2em;\n  text-decoration: none;\n  transition: color 200ms;\n  transform-style: preserve-3d;\n}\na:hover {\n  color: #343e48;\n}\na:after {\n  content: attr(data-title);\n  position: absolute;\n  display: block;\n  text-shadow: none;\n  top: 29%;\n  left: 10px;\n  padding: 16px 43%;\n  color: transparent;\n  background: #4795c3;\n  transform-origin: 50% 0%;\n  backface-visibility: hidden;\n  transform: translate3d(0px, 105%, 0px) rotateX(-112deg);\n  transform-style: preserve-3d;\n  transition: all 200ms ease;\n  z-index: -1;\n}\nli:nth-child(2) a:after {\n  background: #ecc64b;\n}\nli:nth-child(3) a:after {\n  background: #0b9ea6;\n}\nli:nth-child(4) a:after {\n  background: #f26667;\n}\na:hover:after {\n  transform: rotateX(0deg) translateZ(0px);\n}\n\na {\n  color: black;\n  text-decoration: none;\n  background-color: transparent;\n  font-size: 25px;\n  margin: 10px\n}\n\n.card-body {\n  -ms-flex: 1 1 auto;\n  flex: 1 1 auto;\n  padding: 3.25rem;\n  background-color: #505ABA;\n  color: white;}\n\n.card{\n  margin: 60px;\n}\n\n\n\n.work-home{\n  margin: 70px 120px;\n}\n\n.welcome{\n  background-color: #505ABA;\n  padding: 55px 0px;\n}\n\n.work{\n  background-color: #505ABA;\n  padding: 55px 0px;\n  margin-top: 20px;\n}\n\np.bold{\n  color: white;\n\n}\n\n.margin-text{\n  margin: 0px 120px;\n}\n\n\nul {\n  display: block;\n  text-align: center;\n  margin: 0 auto;\n  padding: 0;\n  width: 100%;\n  min-width: 535px;\n  background-color: white;\n  font-size: 22px;\n  position: relative;\n  box-shadow: none;\n}\n\na {\n  text-transform: none;\n  z-index: 2;\n  text-shadow: none;\n  letter-spacing: 0em;\n}\n\n.nav-link {\n  display: block;\n  padding: 0.5rem 1rem;\n  color: black;}\n\n\n.heroabout{\n  display: flex;\n  align-items: center;\n}\n\n.presentation{\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+--- a/style.css	(revision 244b0b8a0070abf06e1441c80267fd95d2e99550)
++++ b/style.css	(date 1656358507761)
+@@ -80,19 +80,20 @@
+   text-shadow: 1px 0px rgba(0, 0, 0, 0.4);
+   color: #686f77;
+   letter-spacing: .2em;
++
+   text-decoration: none;
+   transition: color 200ms;
+   transform-style: preserve-3d;
+ }
+ a:hover {
+-  color: #343e48;
++  color: black;
+ }
+ a:after {
+   content: attr(data-title);
+   position: absolute;
+   display: block;
+   text-shadow: none;
+-  top: 29%;
++  top: 30%;
+   left: 10px;
+   padding: 16px 43%;
+   color: transparent;
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\n<head>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\"\n        content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n  <title>Portfolio</title>\n\n  <link rel=\"stylesheet\" href=\"style.css\">\n  <!-- Bootstrap CSS -->\n  <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\n  <!-- Optional JavaScript -->\n  <!-- jQuery first, then Popper.js, then Bootstrap JS -->\n  <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n  <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>\n\n</head>\n\n\n<body>\n\n\n\n  <ul class=\"nav justify-content-end\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link active\" href=\"index.html\">Portfolio</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"work.html\">Work</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"about.html\">About</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n    </li>\n\n  </ul>\n\n  <main>\n\n\n    <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">\n      <div class=\"carousel-inner\">\n        <div class=\"carousel-item active\">\n          <img src=\"IMG_0126.JPG\" class=\"d-block w-100\" alt=\"...\">\n        </div>\n        <div class=\"carousel-item\">\n          <img src=\"IMG_0127.JPG\" class=\"d-block w-100\" alt=\"...\">\n        </div>\n        <div class=\"carousel-item\">\n          <img src=\"IMG_3006.jpeg\" class=\"d-block w-100\" alt=\"...\">\n        </div>\n      </div>\n      <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n        <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n        <span class=\"sr-only\">Previous</span>\n      </a>\n      <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">\n        <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n        <span class=\"sr-only\">Next</span>\n      </a>\n    </div>\n\n    <br>\n\n    <div class=\"welcome\">\n      <p class=\"bold\">\n        Gioele Sciacovelli\n      </p>\n\n      <h1 class=\"white\">\n        Mediamatiker und Hobbyzeichner\n      </h1>\n      <p class=\"white\">\n        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet\n      </p>\n    </div>\n\n    <div class=\"workcards\">\n      <h1>\n        Some of my work\n      </h1>\n      <p>\n        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet\n      </p>\n\n      <div class=\"card\" style=\"width: 18rem;\">\n        <img src=\"IMG_0065.jpeg\" class=\"card-img-top\" alt=\"...\">\n        <div class=\"card-body\">\n          <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n        </div>\n      </div>\n      <div class=\"cards\">\n        <div class=\"card\" style=\"width: 18rem;\">\n          <img src=\"IMG_3002.jpg\" class=\"card-img-top\" alt=\"...\">\n          <div class=\"card-body\">\n            <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n          </div>\n        </div>\n\n        <div class=\"card\" style=\"width: 18rem;\">\n          <img src=\"IMG_0062.jpeg\" class=\"card-img-top\" alt=\"...\">\n          <div class=\"card-body\">\n            <p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n\n\n\n\n\n\n  </main>\n</body>\n  <footer>\n\n  </footer>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 244b0b8a0070abf06e1441c80267fd95d2e99550)
++++ b/index.html	(date 1656359649599)
+@@ -86,7 +86,7 @@
+       <p>
+         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+       </p>
+-
++    <div class="flexbox-container">
+       <div class="card" style="width: 18rem;">
+         <img src="IMG_0065.jpeg" class="card-img-top" alt="...">
+         <div class="card-body">
+@@ -109,13 +109,9 @@
+         </div>
+       </div>
+     </div>
+-
+-
+-
+-
+-
+-
+   </main>
++
++
+ </body>
+   <footer>
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4ede7e17-0ddc-4245-9fe0-bef584584539\" name=\"Changes\" comment=\"Änderung 1 27.6\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/style.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"29QnXQLdwo9EU1BOUq7HiOu6yWq\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <OptionsSetting value=\"false\" id=\"Update\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\n    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\n    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23853211&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration name=\"index.html\" type=\"JavascriptDebugType\" temporary=\"true\" nameIsGenerated=\"true\" uri=\"http://localhost:63342/untitled/index.html\" useBuiltInWebServerPort=\"true\">\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JavaScript Debug.index.html\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4ede7e17-0ddc-4245-9fe0-bef584584539\" name=\"Changes\" comment=\"\" />\n      <created>1653054216820</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1653054216820</updated>\n      <workItem from=\"1653054219453\" duration=\"5000\" />\n      <workItem from=\"1653054831755\" duration=\"21000\" />\n      <workItem from=\"1653055385317\" duration=\"1466000\" />\n      <workItem from=\"1654871123501\" duration=\"523000\" />\n      <workItem from=\"1654872015845\" duration=\"666000\" />\n      <workItem from=\"1655094793385\" duration=\"2325000\" />\n      <workItem from=\"1655970522855\" duration=\"72000\" />\n      <workItem from=\"1656356792271\" duration=\"1351000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"carla\">\n      <created>1654872103426</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1654872103426</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"carla 3\">\n      <created>1655967192307</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655967192307</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"carla 3\">\n      <created>1655969966067</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1655969966067</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Änderung 1 27.6\">\n      <created>1656356044955</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656356044955</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"Änderung 1 27.6\">\n      <created>1656356400178</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656356400178</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"Änderung 1 27.6\">\n      <created>1656357306666</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1656357306666</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"7\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"carla\" />\n    <MESSAGE value=\"carla 3\" />\n    <MESSAGE value=\"Änderung 1 27.6\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Änderung 1 27.6\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 244b0b8a0070abf06e1441c80267fd95d2e99550)
++++ b/.idea/workspace.xml	(date 1656359654579)
+@@ -72,7 +72,7 @@
+       <workItem from="1654872015845" duration="666000" />
+       <workItem from="1655094793385" duration="2325000" />
+       <workItem from="1655970522855" duration="72000" />
+-      <workItem from="1656356792271" duration="1351000" />
++      <workItem from="1656356792271" duration="2858000" />
+     </task>
+     <task id="LOCAL-00001" summary="carla">
+       <created>1654872103426</created>
+@@ -116,7 +116,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1656357306666</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="Änderung 1 27.6">
++      <created>1656358160323</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1656358160323</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

@@ -58,19 +58,20 @@ a {
   text-shadow: 1px 0px rgba(0, 0, 0, 0.4);
   color: #686f77 !important;
   letter-spacing: .2em;
+
   text-decoration: none;
   transition: color 200ms;
   transform-style: preserve-3d;
 }
 a:hover {
-  color: #343e48;
+  color: black;
 }
 a:after {
   content: attr(data-title);
   position: absolute;
   display: block;
   text-shadow: none;
-  top: 29%;
+  top: 30%;
   left: 10px;
   padding: 16px 43%;
   color: transparent;
