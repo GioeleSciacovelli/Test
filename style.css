@@ -172,3 +172,10 @@ a {
   align-items: center;
   justify-content: flex-end;
 }
+
+.carousel-inner {
+  height: 481px;}
+
+.carousel-control-prev-icon{
+  height: 44px;
+}
