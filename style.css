@@ -4,7 +4,6 @@ html {
   perspective: 1000px;
   transform-style: preserve-3d;
   font-family: lato, sans-serif;
-  border-left:10px;
 }
 
 h1{
