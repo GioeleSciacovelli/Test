@@ -12,6 +12,16 @@ h1{
   font-size: 60px;
   margin-bottom: 20px;}
 
+h1{
+  font-family: Russo One;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;}
+
+h5{
+  font-family: "Russ One";
+}
+
 
 .white{
   color: white;
@@ -20,7 +30,6 @@ h1.white{
 color: white;
 font-size: 60px}
 s
-
 
 ul {
   display: block;
@@ -42,8 +51,15 @@ ul:after {
   opacity: .5;
 }
 
+ul.nav.bg-light{
+  margin-left: 50px;
+}
+
+.d-flex .justify-content-end{
+
+}
+
 li {
-  margin: 0 auto;
   display: inline-block;
   list-style: none;
   padding: 0;
@@ -108,8 +124,8 @@ a {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 3.25rem;
-  background-color: #505ABA;
-  color: white;}
+  background-color: white;
+  color: black;}
 
 .card{
   margin: 60px;
@@ -201,3 +217,10 @@ a {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+audio{
+  width: 500px !important;
+  margin: 30px;
+}
+
+.row .py-lg-

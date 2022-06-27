@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- googlefonts -->
@@ -27,60 +27,83 @@
 <header>
   <!-- Navigation von Bootstrap-->
 
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="work.html">Work</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </li>
-  </ul>
+  <div class="collapse bg-light" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-light bg-light ">
+    <div class="container">
+      <div class="d-flex justify-content-end" >
+        <ul class="nav bg-light">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+            </svg>
+            <h2>Gioele Sciacovelli</h2>
+          </a>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
 </header>
-<hr class="featurette-divider">
 
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <img src="img/IMG_0065.jpeg" alt="" class="bd-placeholder-img rounded-circle" width="300" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img>
+      <h1 class="fw-light py-3"> Mediamatiker und Hobbyzeichner</h1>
+      <p class="lead text-muted">Darf ich mich vorstellen, mein Name ist Gioele Sciacovelli, ich bin 16 Jahre alt und komme aus Bari (IT). Wie Sie vielleicht bemerkt haben, besteht meine Leidenschaft im Zeichnen, denn das ist eines der Dinge, die ich schon seit meiner Kindheit mache.  Ich wollte meine Kreativität mit meinen Computerkenntnissen kombinieren, und deshalb habe ich mich um eine Ausbildung als Mediamatiker beworben.</p>
+    </div>
+
   </div>
-  <div class="col-md-5">
-    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+</section>
+
+<section class="text-center container">
+  <div class="row">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light"> Audio abspielen</h1>
+      <audio id="myaudio" controls>
+        <source src="Hallo.ogg" type="audio/ogg">
+        <source src="Hallo.wav" type="audio/wav">
+        <source src="Hallo.mp3" type="audio/mpeg">
+        Dieser Webbrowser unterstützt das audio-Tag nicht
+      </audio>
+      <video width="550" controls poster="poster1.png">
+        <source src="Varanasi.ogv" type="video/ogg">
+        <source src="Varanasi.webm" type="video/webm">
+        <source src="Varanasi.mp4" type="video/mp4">
+        Ihr Webbrowser unterstützt das video-Tag nicht.
+      </video>
+    </div>
 
   </div>
-</div>
-
-<hr class="featurette-divider">
-<div class="heroabout">
-  <img src="..." class="d-block w-100" alt="...">
-
-  <div class="presentation"></div>
+</section>
 
 
-  <h1>
-    Gioele
-  </h1>
-  <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-  </p>
-</div>
-</div>
-<div class="abouthobbys">
-  <img src="..." class="d-block w-100" alt="...">
-  <img src="..." class="d-block w-100" alt="...">
-  <img src="..." class="d-block w-100" alt="...">
+<footer>
+  <div class="b-example-divider"></div>
 
-</div>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Gioele Sciacovelli, Inc</span>
+      </div>
 
 
+    </footer>
 
 </body>
 </html>
