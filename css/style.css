@@ -7,17 +7,23 @@ html {
 }
 
 h1{
-  font-family: Russo One;
-  color: black;
-  font-size: 60px;
-  margin-bottom: 20px;}
+  font-family: 'Gochi Hand', cursive;
+  font-size: 70px !important;
+  margin-bottom: 20px;
 
-h1{
-  font-family: Russo One;
-  color: black;
-  font-size: 30px;
-  margin-bottom: 20px;}
+}
 
+h3{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 40px !important;
+margin-bottom: 0px
+color: black !important;}
+
+h5.lead{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 30px !important;
+  margin-bottom: 0px
+}
 
 
 
@@ -70,7 +76,6 @@ a {
   position: relative;
   z-index: 2;
   text-shadow: 1px 0px rgba(0, 0, 0, 0.4);
-  color: #686f77 !important;
   letter-spacing: .2em;
 
   text-decoration: none;
@@ -96,16 +101,10 @@ a:after {
   transform-style: preserve-3d;
   transition: all 200ms ease;
   z-index: -1;
+  background: none;
 }
-li:nth-child(2) a:after {
-  background: #ecc64b;
-}
-li:nth-child(3) a:after {
-  background: #0b9ea6;
-}
-li:nth-child(4) a:after {
-  background: #f26667;
-}
+
+
 a:hover:after {
   transform: rotateX(0deg) translateZ(0px);
 }
@@ -172,7 +171,7 @@ a {
   z-index: 2;
   text-shadow: none;
   letter-spacing: 0em;
-  color: black;
+  color: black !important;
 }
 
 
@@ -222,3 +221,4 @@ audio{
 }
 
 .row .py-lg-
+
