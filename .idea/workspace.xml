@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="carla 28.07">
+    <list default="true" id="4ede7e17-0ddc-4245-9fe0-bef584584539" name="Changes" comment="CHANGES:">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_06_22,_09_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_06_22__09_45__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +85,11 @@
       <workItem from="1654872015845" duration="666000" />
       <workItem from="1655094793385" duration="2325000" />
       <workItem from="1655970522855" duration="72000" />
+      <workItem from="1656630789774" duration="176000" />
+      <workItem from="1656634485690" duration="124000" />
+      <workItem from="1656660677671" duration="173000" />
+      <workItem from="1656661178794" duration="14000" />
+      <workItem from="1656665384007" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="carla">
       <created>1654872103426</created>
@@ -272,6 +282,7 @@
     <MESSAGE value="carla 26.06" />
     <MESSAGE value="carla 21:29" />
     <MESSAGE value="carla 28.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="carla 28.07" />
+    <MESSAGE value="CHANGES:" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHANGES:" />
   </component>
 </project>
